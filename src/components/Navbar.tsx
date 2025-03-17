@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#home" className="block px-3 py-2 rounded-md hover:bg-emerald-700">Home</a>
-            <a href="#courses" className="block px-3 py-2 rounded-md hover:bg-emerald-700">Courses</a>
+            <a href="#courses" className="block px-3 py-2 rounded-md hover:bg-emerald-700">Gallery</a>
             <a href="#videos" className="block px-3 py-2 rounded-md hover:bg-emerald-700">Videos</a>
           </div>
         </div>
