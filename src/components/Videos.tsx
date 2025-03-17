@@ -67,7 +67,7 @@ export default function Videos() {
             Hostel Rooms
           </h2>
           <p className="text-xl font-medium mt-4 text-gray-900 sm:text-2xl">
-            Madarsha have two floors and 20 rooms including a guest room and a
+            Madarasa have two floors and 20 rooms including a guest room and a
             staff room.
           </p>
         </div>
