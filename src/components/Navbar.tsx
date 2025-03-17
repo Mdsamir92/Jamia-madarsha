@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <BookOpen className="h-8 w-8" />
-            <span className="ml-2 text-xl font-bold">Jamia Samir-E-milat</span>
+            <span className="ml-2 text-xl font-bold">Jamia Samir-E-millat</span>
           </div>
           
           <div className="hidden md:block">
