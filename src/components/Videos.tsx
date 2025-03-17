@@ -31,6 +31,22 @@ export default function Videos() {
             <div className="relative w-full h-[450px]">
               <iframe
                 className="w-full h-[560px]"
+                src="https://www.youtube.com/embed/qMNnv1SEzd0"
+                title="jalsa dastaar bandi program"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+
+            </div>
+          </div>
+
+     {/* Video 3 */}
+     <div className="overflow-hidden rounded-lg shadow-lg">
+            <div className="relative w-full h-[450px]">
+              <iframe
+                className="w-full h-[560px]"
                 src="https://www.youtube.com/embed/afcT_7xWDNU"
                 title="jalsa dastaar bandi program"
                 frameBorder="0"
@@ -40,6 +56,9 @@ export default function Videos() {
               />
             </div>
           </div>
+
+
+
         </div>
 
         {/* Section Heading */}
