@@ -34,11 +34,11 @@ export default function AboutUs() {
 
 
       <div>
-        <p className="mt-12 text-center text-2xl font-semibold">
+        <p className="mt-12 text-center md:text-2xl  text-xl font-semibold">
         "Scan the QR code and send money for the foundation of the Madarsha."
         </p>
-        <div className="mt-12 flex justify-center">
-          <img src="/images/qr-code.jpg" alt="QR Code" className="h-[500px]" />
+        <div className="mt-8 flex justify-center">
+          <img src="/images/qr-code.jpg" alt="QR Code" className="md:h-[500px] md:w-[500px] w-full" />
         </div>
       </div>
 
