@@ -35,7 +35,7 @@ export default function AboutUs() {
 
       <div>
         <p className="mt-12 text-center md:text-2xl  text-xl font-semibold">
-        "Scan the QR code and send money for the foundation of the Madarasa."
+        "Scan the QR code and send money for the foundation of the Madarsha."
         </p>
         <div className="mt-8 flex justify-center">
           <img src="/images/qr-code.jpg" alt="QR Code" className="md:h-[500px] md:w-[500px] w-full" />
@@ -46,17 +46,20 @@ export default function AboutUs() {
       <div className="mt-12 grid gap-8 md:grid-cols-2 mx-8">
         {/* PDF 1 */}
         <div className="overflow-hidden rounded-xl shadow-lg bg-white">
-          <iframe
-            src="/images/ZAPTA-BOOK.pdf"
-            className="w-full h-[400px] border-none"
-            title="PDF 1"
-          ></iframe>
+        <iframe
+  src="https://docs.google.com/gview?embedded=true&url=https://yourdomain.com/images/ZAPTA-BOOK.pdf"
+  className="w-full h-[400px] border-none"
+  title="PDF 1"
+/>
+
         </div>
 
         {/* PDF 2 */}
         <div className="overflow-hidden rounded-xl shadow-lg bg-white">
           <iframe
-            src="/images/ZAPTA-BOOK1.pdf"
+            // src="/images/ZAPTA-BOOK1.pdf"
+            src="https://docs.google.com/gview?embedded=true&url=https://yourdomain.com/images/ZAPTA-BOOK1.pdf"
+
             className="w-full h-[400px] border-none"
             title="PDF 1"
           ></iframe>
