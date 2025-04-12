@@ -47,7 +47,7 @@ export default function AboutUs() {
         {/* PDF 1 */}
         <div className="overflow-hidden rounded-xl shadow-lg bg-white">
         <iframe
-  src="/images/ZAPTA-BOOK.pdf"
+  src="https://docs.google.com/gview?embedded=true&url=https://jamia-samir-e-milat-madarsha.vercel.app/images/ZAPTA-BOOK.pdf"
   className="w-full h-[400px] border-none"
   title="PDF 1"
 />
@@ -57,8 +57,8 @@ export default function AboutUs() {
         {/* PDF 2 */}
         <div className="overflow-hidden rounded-xl shadow-lg bg-white">
           <iframe
-             src="/images/ZAPTA-BOOK1.pdf"
-          
+            // src="/images/ZAPTA-BOOK1.pdf"
+            src="https://docs.google.com/gview?embedded=true&url=https://jamia-samir-e-milat-madarsha.vercel.app/images/ZAPTA-BOOK1.pdf"
 
             className="w-full h-[400px] border-none"
             title="PDF 1"
