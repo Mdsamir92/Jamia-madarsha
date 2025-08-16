@@ -2,16 +2,41 @@ export default function Videos() {
   return (
     <div id="videos" className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+
+  {/* Section Heading */}
+  <div className="text-center">
+          <h2 className="text-3xl my-8 font-extrabold text-gray-900 sm:text-4xl">
+           Independence Day Celebration
+          </h2>
+        </div>
+
+
+     {/* Video 1 */}
+<div className="overflow-hidden rounded-lg shadow-lg">
+  <div className="relative w-full h-[450px]">
+    <video
+      src="/images/independenceDay.mp4"
+      loop
+      muted
+      autoPlay
+      playsInline
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+
         {/* Section Heading */}
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl my-8 font-extrabold text-gray-900 sm:text-4xl">
             Jalsa Dastar Bandi Program
           </h2>
         </div>
 
         {/* Video Grid */}
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
-          {/* Video 1 */}
+  
           <div className="overflow-hidden rounded-lg shadow-lg">
             <div className="relative w-full h-[450px] ">
               <iframe
@@ -67,7 +92,7 @@ export default function Videos() {
             Hostel Rooms
           </h2>
           <p className="text-xl font-medium mt-4 text-gray-900 sm:text-2xl">
-            Madarasa have two floors and 20 rooms including a guest room and a
+            Madarsha have two floors and 20 rooms including a guest room and a
             staff room.
           </p>
         </div>
